@@ -19,10 +19,10 @@ class SpotifyDownloaderMod(loader.Module):
     """Music search module"""
     strings = {
         "name": "MusicFinder",
-        "yoq": "<b>🌇 Nothing found!</b>",
-        "qidiryapman": "<b>🐝 Wanted...</b>",
-        "eshe": "<b>🌇 Please try again!</b>",
-        "topmadim": "<b>🌇 No music found. Maybe you misspelled the name?</b>"}
+        "yoq": "<b>❌ Musiqa topilmadi!</b>",
+        "qidiryapman": "<b>✅ Musiqa topildi!</b>",
+        "eshe": "<b>❌ Qayta urinib koʻring!</b>",
+        "topmadim": "<b>❌ Musiqa topilmadi balki siz yozgan musiqaning nomi notoʻgʻridir?</b>"}
     
     async def client_ready(self, client, db):
         self.client = client
