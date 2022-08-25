@@ -53,7 +53,7 @@ banner() {
 printf "\n\e[1;35;47m █ █ █▆█ ███ ██▅  \e[0m"
 printf "\n\e[1;35;47m █▅█ █ █ █▆█ █▅█  \e[0m"
 printf "\n\e[1;35;47m                  \e[0m"
-printf "\n\n\e[3;34;40m UMod - Yangi Avlod Yuzerboti\e[0m\n\n"
+printf "\n\n\e[3;34;40m UMod - Yangi Userbot\e[0m\n\n"
 	
 }
 
@@ -194,7 +194,7 @@ fi
 # shellcheck disable=SC2086
 ${SUDO_CMD}rm -rf UMod
 # shellcheck disable=SC2086
-runout ${SUDO_CMD}git clone https://github.com/Netuzb/UMod|| {
+runout ${SUDO_CMD}git clone https://github.com/Shahriyor7/UMod|| {
 	errorout "Clone failed."
 	exit 3
 }
