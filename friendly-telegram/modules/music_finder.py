@@ -43,7 +43,7 @@ class SpotifyDownloaderMod(loader.Module):
         music = await self.client.inline_query('spotifysavebot', args)
         for mus in music:
             if mus.result.type == 'audio':
-                await self.client.send_file(message.peer_id, mus.result.document, reply_to=message.reply_to_msg_id, caption="🌇 <b>Music found!\n🌉 Found by</b> <code>@netuzb</code>")
+                await self.client.send_file(message.peer_id, mus.result.document, reply_to=message.reply_to_msg_id, caption="✅ <b>Musiqa topildi</b>")
                 return await message.delete()
 
         return await message.edit(self.strings("topmadim", message))
